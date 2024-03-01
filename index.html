@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H(app)y +</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+
+<body>
+    <nav>
+        <div class="container nav--container">
+            <img src="/imgaes/IMAGE-1.svg" alt="">
+            <ul class="nav--ul">
+                <li>
+                    Features</li>
+                <li>
+                    Pricing
+                </li>
+                <li>
+                    Testimonials
+                </li>
+                <li>
+                    Instructions
+                </li>
+                <button class="btn--stan">Get template</button>
+                <svg onClick={falseBars()} class="x--mark" style="display: none;" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 384 512">
+                    <path
+                        d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
+                </svg>
+            </ul>
+            <svg class="bars" onClick={trueBars()} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <path
+                    d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+            </svg>
+
+        </div>
+    </nav>
+    <header>
+        <div class="block--1 container">
+            <img src="/imgaes/IMAGE-1.svg" alt="">
+            <h1>The future of digital photos.</h1>
+            <p>The H(app)y app is the latest & greatest in 
+                phone photography. It's available in the App 
+                Store right now.Go check it out!</p>
+            <div class="btn--flex">
+                <button class="btn--stan">Download</button>
+                <button class="btn--stan">Read more</button>
+            </div>
+            <img class="phone" src="/imgaes/PHONE.svg" alt="">
+        </div>
+        <div class="block--2">
+            <div class="container">
+                <h1 style="color: #fff;" class="block--title">
+                    <p style="color: #fff;">Features</p>
+                    The latest & greatest in phone <br>
+                    photography.
+                </h1>
+
+                <div class="card--grid">
+                    <div class="card">
+                        <img src="/imgaes/PHONE (1).svg" alt="">
+                        <div class="text">
+                            <img src="/imgaes/ICON (1).svg" alt="">
+                            <p style="color: #0278ED;">Calendar view</p>
+                            <span>
+                                Lorem ipsum dolor sit amet, <br>
+                                consectetur adipiscing elit. Nullam <br>
+                                scelerisque aliquam odio et faucibus.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/imgaes/PHONE (2).svg" alt="">
+                        <div class="text">
+                            <img src="/imgaes/ICON (2).svg" alt="">
+                            <p style="color: #FF5437;">Lists</p>
+                            <span>
+                                Dolor sit amet urna turpis. Mauris <br>
+                                euismod elit et nisi ultrices, ut <br>
+                                faucibus orci tincidunt.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/imgaes/PHONE (3).svg" alt="">
+                        <div class="text">
+                            <img src="/imgaes/ICON (3).svg" alt="">
+                            <p style="color: #FF9209">Varied type</p>
+                            <span>
+                                Nulla rhoncus feugiat eros quis <br>
+                                consectetur. Morbi neque ex, <br>
+                                condimentum dapibus congue.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/imgaes/PHONE (4).svg" alt="">
+                        <div class="text">
+                            <img src="/imgaes/ICON (4).svg" alt="">
+                            <p style="color: #E738CE;">Split-screen</p>
+                            <span>
+                                Vestibulum ultrices, orci nec egestas <br>
+                                pharetra, ligula est semper enim, <br>
+                                nec auctor sapien leo nec purus.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/imgaes/PHONE (5).svg" alt="">
+                        <div class="text">
+                            <img src="/imgaes/ICON (5).svg" alt="">
+                            <p style="color: #00C6DF;">Uploads</p>
+                            <span>
+                                Duis tristique sed lorem a vestibulum. <br>
+                                Cras commodo consequat orci, in <br>
+                                convallis risus egestas non.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/imgaes/PHONE (6).svg" alt="">
+                        <div class="text">
+                            <img src="/imgaes/ICON (6).svg" alt="">
+                            <p style="color: #B25DF8;">Focus mode</p>
+                            <span>
+                                Lorem sit amet urna turpis. Mauris <br>
+                                euismod elit et nisi ultrices, ut <br>
+                                faucibus orci tincidunt.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block--3">
+            <div class="container">
+                <h1>
+                    400+
+                    <p>
+                        Pictures analyzed
+                    </p>
+                </h1>
+                <h1>
+                    25+
+                    <p>
+                        Operations per minute
+                    </p>
+                </h1>
+                <h1>
+                    95%
+                    <p>
+                        Accuracy
+                    </p>
+                </h1>
+            </div>
+        </div>
+        <div class="block--4">
+            <div class="container">
+                <p>TEchnology</p>
+                <h1>
+                    Use H(app)y to give your
+                    digital photos some pop.
+                </h1>
+                <p class="desc">
+                    Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Suspendisse varius enim in eros
+                    elementum tristique. Duis cursus, mi quis viverra
+                    ornare, eros dolor interdum nulla, ut commodo
+                    diam libero vitae erat. Aenean faucibus nibh et
+                    justo cursus id rutrum lorem imperdiet. Nunc ut
+                    sem vitae risus tristique posuere.
+                </p>
+                <img src="/imgaes/RIGHT.svg" alt="">
+            </div>
+        </div>
+        <div class="block--5">
+            <div class="container">
+                <img src="/imgaes/LEFT.svg" alt="">
+                <div class="text">
+                    <p>Speed & security</p>
+                    <h1>
+                        State-of-the-art
+                        processing capabilities.
+                    </h1>
+                    <p class="desc">
+                        Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit. Suspendisse varius enim in eros
+                        elementum tristique. Duis cursus, mi quis viverra
+                        ornare, eros dolor interdum nulla, ut commodo
+                        diam libero vitae erat. Aenean faucibus nibh et
+                        justo cursus id rutrum lorem imperdiet. Nunc ut
+                        sem vitae risus tristique posuere.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+        <div class="block--6">
+            <div class="container">
+                <h1 class="block--title" style="color: #fff;">
+                    <p style="color: #fff;">
+                        Dark mode
+                    </p>
+                    Also available in dark.
+                    <span>
+                        Don't get blinded when using the H(app)y app at night, just turn <br>
+                        off the lights. Lorem ipsum dolor sit amet.
+                    </span>
+                </h1>
+                <img src="/imgaes/CENTER.svg" alt="">
+            </div>
+        </div>
+        <div class="block--7">
+            <div class="container">
+                <h1 class="block--title">
+                    <p>Pricing</p>
+                    A plan for every need.
+                    <span>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam <br>
+                        scelerisque aliquam odio et faucibus.
+                    </span>
+                </h1>
+                <div class="card--grid">
+                    <div class="card">
+                        <p style="color: #0278ED;">
+                            Standard
+                        </p>
+                        <h1 style="color: #0278ED;">
+                            $9
+                        </h1>
+                        <span>
+                            Monthly
+                        </span>
+                        <button style="background: #0278ED; ">
+                            Buy now
+                        </button>
+                    </div>
+                    <div class="card">
+                        <p style="color: #FF5437;">
+                            Premium
+                        </p>
+                        <h1 style="color: #FF5437;">
+                            $99
+                        </h1>
+                        <span>
+                            Annually
+                        </span>
+                        <button style="background: #FF5437; ">
+                            Buy now
+                        </button>
+                    </div>
+                    <div class="card">
+                        <p style="color: #FF9209;">
+                            Lifetime
+                        </p>
+                        <h1 style="color: #FF9209;">
+                            $149
+                        </h1>
+                        <span>
+                            up front
+                        </span>
+                        <button style="background: #FF9209; ">
+                            Buy now
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block--8">
+            <div class="container">
+                <h1 class="block--title">
+                    <p>Testimonials</p>
+                    Don't take our word for it.
+                    <span>See what our customers are saying.</span>
+                </h1>
+                <div class="card--grid">
+                    <div class="card">
+                        <p>
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit.
+                            Suspendisse varius enim in eros
+                            elementum tristique. Duis cursus.
+                        </p>
+                        <ul>
+                            <img src="/imgaes/IMAGE (1).svg" alt="">
+                            <li>
+                                Pam Beesly <br>
+                                <span>
+                                    Dunder Mifflin
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <p>
+                            Nulla efficitur auctor hendrerit. Etiam
+                            ut orci varius, faucibus libero ac,
+                            cursus quam. Aenean porta neque
+                            eget consequat fringilla.
+                        </p>
+                        <ul>
+                            <img src="/imgaes/IMAGE (2).svg" alt="">
+                            <li>
+                                Michael Scott <br>
+                                <span>
+                                    Dunder Mifflin
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <p>
+                            Vestibulum ultrices, orci nec egestas
+                            pharetra, ligula est semper enim,
+                            nec auctor sapien leo nec purus.
+                        </p>
+                        <ul>
+                            <img src="/imgaes/IMAGE (3).svg" alt="">
+                            <li>
+                                Angels Schrute <br>
+                                <span>
+                                    Dunder Mifflin
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block--9">
+            <div class="container">
+                <h1 class="block--title">
+                    <p>
+                        Download
+                    </p>
+                    It's available right now!
+                    <span>
+                        Duis tristique sed lorem a vestibulum. Cras commodo consequat <br>
+                        orci, in convallis risus egestas
+                        non.
+                    </span>
+                </h1>
+                <img src="/imgaes/Group.svg" alt="">
+            </div>
+        </div>
+        <div class="block--10">
+            <div class="container">
+                <h1>FAQ</h1>
+                <p>
+                    Some questions & some answers
+                </p>
+                <ul>
+                    <li>
+                        What devices does H(app)y support?
+                        <span>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam <br>
+                            scelerisque aliquam odio et faucibus. Nulla rhoncus feugiat eros quis <br>
+                            consectetur. Morbi neque ex, condimentum dapibus congue et, <br>
+                            vulputate ut ligula.
+                        </span>
+                    </li>
+                    <li>
+                        How many megapixels does H(app)y support?
+                        <span>
+                            Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex, <br>
+                            condimentum dapibus congue et, vulputate ut ligula. Vestibulum sit <br>
+                            amet urna turpis. Mauris euismod elit et nisi ultrices, ut faucibus orci <br>
+                            tincidunt. Vestibulum sit amet urna turpis. Mauris euismod elit et nisi <br>
+                            ultrices, ut faucibus orci tincidunt.
+                        </span>
+                    </li>
+                    <li>
+                        Will my photos magically be more beautiful if I use this app?
+                        <span>
+                            Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices, <br>
+                            ut faucibus orci tincidunt. Duis tristique sed lorem a vestibulum. <br>
+                            Cras commodo consequat orci, in convallis risus egestas non. Nulla <br>
+                            efficitur auctor hendrerit.
+                        </span>
+                    </li>
+                    <li>
+                        How many photos can I store in H(app)y?
+                        <span>
+                            Vestibulum ultrices, orci nec egestas pharetra, ligula est semper <br>
+                            enim, nec auctor sapien leo nec purus. Etiam ut orci varius, faucibus <br>
+                            libero ac, cursus quam. Aenean porta neque eget consequat fringilla.
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <footer>
+        <div class="container">
+            <img src="/imgaes/LOGO.svg" alt="">
+            <img src="/imgaes/MESSANGER.svg" alt="">
+            <p>
+                Powered by
+                <span>
+                    Webflow
+                </span>
+                . All rights reserved by Happy Apps, Inc.
+                <span>
+                    Licensing
+                </span>
+                .
+            </p>
+        </div>
+    </footer>
+    <script src="/script.js"></script>
+</body>
+
+</html>
